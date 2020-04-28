@@ -1,0 +1,26 @@
+<html>
+<body>
+<script>
+
+var firstNumber = prompt ("enter a number"); 
+var secondNumber = prompt ("enter a second number");
+var operation = promot ("would you like to mult(multiply),div(divide),mod(modulo)?"); 
+if (operation.toLowerCase() === "mult"||operation.toLowerCase() === "multiply"){ 
+console.log (parseInt(first)*parseInt(second));  
+} 
+else 
+if (operation.toLowerCase() === "div"||operation.toLowerCase() === "divide"){
+console.log (parseInt(first)/parseInt(second));
+}
+else 
+if (operation.toLowerCase() === "mod"||operation.toLowerCase() === "modulo"){
+console.log (parseInt(first)%parseInt(second)); 
+}
+
+else{
+console.log (*** invalid input ***);
+}
+
+</html>
+</body>
+</script>
